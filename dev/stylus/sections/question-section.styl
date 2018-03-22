@@ -1,0 +1,79 @@
+.question-section
+  margin-bottom 70px
+  padding-top 50px
+  background-repeat no-repeat
+  background-position top center
+  text-align center
+
+.question-heading
+  margin-bottom 26px
+  &__title
+    margin-bottom 13px
+    font-family PT-Sans-Narrow-Bold
+    font-size rem(48)
+    text-transform: uppercase
+    color #ffffff
+    span
+      color #fc481a
+  &__subtitle
+    font-family PT-Sans-Regular
+    font-size rem(22)
+    color #ffffff
+
+.question-form
+  width 66%
+  margin 0 auto
+  padding 35px 40px 50px 50px
+  border-radius 10px
+  background-color #ffffff
+  text-align center
+
+.question-form-title
+  display flex
+  margin-bottom 40px
+  align-items center
+  justify-content center
+  &__number
+    margin-right 18px
+    padding 13px 19px
+    border-radius 50%
+    background-color #e5e5e5
+    font-family PT-Sans-Bold
+    font-size rem(30)
+    color #000000
+  &__text
+    font-family PT-Sans-Bold
+    font-size rem(24)
+    text-transform uppercase
+    color black
+
+.question-form-answers
+  display flex
+  padding 0 19px 0 13px
+  justify-content space-between
+  &__button
+    position relative
+    width 48%
+    padding 30px 0
+    border-radius 10px
+    background-color #fc481a
+    text-align center
+    color red
+    overflow hidden
+    &:before
+      content ''
+      position absolute
+      left -12%
+      top -65%
+      display block
+      width 330px
+      height 100px
+      background-color #fff
+      opacity 0.15
+      border-radius 50%
+  &__text
+    position relative
+    font-family PT-Sans-Bold
+    font-size rem(24)
+    text-transform uppercase
+    color #ffffff
