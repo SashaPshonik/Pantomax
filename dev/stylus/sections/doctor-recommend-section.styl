@@ -1,0 +1,51 @@
+.doctor-recommend-section
+  position relative
+  margin-top -30px
+  padding 26px 40% 40px 40px
+  border-radius 10px
+  background-repeat no-repeat
+  background-position bottom right
+  background-color #ffffff
+  &:after
+    content ''
+    position absolute
+    bottom -9px
+    left 0
+    display block
+    width 100%
+    height 9px
+    background-image url("../img/backgrounds/doctor-recommend-after-bg.png")
+  &__title
+    margin-bottom 25px
+    font-family PT-Sans-Narrow-Bold
+    font-size rem(48)
+    text-transform uppercase
+    color #000000
+    span
+      color #fc481a
+
+.doctor-recommend
+    &__text
+      margin-bottom 10px
+      p
+        margin-bottom 20px
+        font-family PT-Sans-Regular
+        font-size rem(16)
+        line-height 1.3
+        color #000000
+        &:last-child
+          margin-bottom 0
+    &__doctor-img
+      position absolute
+      right -25px
+      bottom -8px
+
+.doctor-recommend-signature
+  display flex
+  align-items center
+  justify-content space-between
+  &__name
+    font-family PT-Sans-Bold
+    font-size rem(16)
+    font-style italic
+    color #000000
