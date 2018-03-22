@@ -6,7 +6,7 @@
 .home-title
   margin-bottom 25px
   font-family RobotoCondensed-Bold
-  font-size rem(59)
+  font-size rem(58)
   text-transform: uppercase
   background -webkit-linear-gradient(left, #f0e394 0%, #b49b52 100%)
   -webkit-background-clip text
@@ -188,6 +188,7 @@
   border-radius 10px
 
 .one-click-form-price
+  width 100%
   padding 21px 0 26px 15px
   font-family PT-Sans-Narrow-Bold
   color #ffffff
@@ -252,6 +253,10 @@
     font-size rem(22)
     text-transform uppercase
     color #ffffff
+    cursor pointer
+    transition transform 1s ease
+    &:hover
+      transform scale(1.05)
     &:before
       content ''
       position absolute
